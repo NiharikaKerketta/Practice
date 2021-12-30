@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[contact created succesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36324" started-at="2021-12-30T15:25:39 IST" finished-at="2021-12-30T15:26:16 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36324" started-at="2021-12-30T15:25:39 IST" finished-at="2021-12-30T15:26:16 IST">
+      <class name="com.crm.Practice.createContactTest.CreateContact">
+        <test-method status="PASS" signature="dbConnection()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="dbConnection" is-config="true" duration-ms="18" started-at="2021-12-30T15:25:39 IST" finished-at="2021-12-30T15:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="launchBrowser" is-config="true" duration-ms="7208" started-at="2021-12-30T15:25:39 IST" finished-at="2021-12-30T15:25:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="loginToApp" is-config="true" duration-ms="5316" started-at="2021-12-30T15:25:47 IST" finished-at="2021-12-30T15:25:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="createContact" duration-ms="20236" started-at="2021-12-30T15:25:52 IST" finished-at="2021-12-30T15:26:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[contact created succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="logoutApp" is-config="true" duration-ms="2527" started-at="2021-12-30T15:26:12 IST" finished-at="2021-12-30T15:26:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="closeBrowser" is-config="true" duration-ms="936" started-at="2021-12-30T15:26:15 IST" finished-at="2021-12-30T15:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.crm.Practice.createContactTest.CreateContact@670b40af]" name="closeConnection" is-config="true" duration-ms="1" started-at="2021-12-30T15:26:16 IST" finished-at="2021-12-30T15:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- com.crm.Practice.createContactTest.CreateContact -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
