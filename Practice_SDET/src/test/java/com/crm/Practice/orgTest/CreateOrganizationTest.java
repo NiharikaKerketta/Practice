@@ -49,4 +49,9 @@ public class CreateOrganizationTest extends BaseClass {
 	public void demoTest2() {
 		System.out.println("===> Demo test regression<===");
 	}
+	
+	@Test(groups = "RegressionSuite")
+	public void demoTest3() {
+		System.out.println("====>Testing<====");
+	}
 }
